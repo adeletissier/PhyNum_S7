@@ -16,7 +16,7 @@ import matplotlib.animation as animation
 
 
 L = 1.0          # Longueur de la corde (m)
-c = 1.0          # Célérité de l'onde sur la corde (m/s)
+c = 1.0          # Vitesse de l'onde sur la corde (m/s)
 x0 = 0.3 * L     # Point de pincement initial
 h = 0.08 * L     # Hauteur du pincement (déplacement initial max)
 
@@ -100,7 +100,7 @@ def y(x,t,An,L,c) :
 
     
 # =============================================================================
-# Animation (aidée d'internet)
+# Animation (aidée de l'intelligence artificielle)
 # =============================================================================
 
 An = An(N_modes, L, x0, h)
